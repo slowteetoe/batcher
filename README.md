@@ -1,0 +1,1 @@
+Attempt at a generic/portable batching system.  Basically, I want to be able to continuously send in objects (think reading from SQS) and at certain batch sizes OR after a certain amount of inactivity, send a batch of those objects downstream.
